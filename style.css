@@ -1,0 +1,44 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #474646;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+h1 {
+  color: white;
+}
+  
+input[type="number"] {
+  padding: 5px;
+  margin: 10px;
+}
+  
+.buttonContainer {
+  margin-top: 20px;
+}
+  
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+button:hover {
+  background-color: #45a049;
+  box-shadow: 1px 1px black;
+}
+  
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+}
